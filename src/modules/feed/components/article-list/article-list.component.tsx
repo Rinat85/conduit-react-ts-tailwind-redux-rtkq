@@ -10,7 +10,7 @@ export const ArticleList: FC<IArticleListProps> = ({ list }) => {
   return (
     <div className="w-3/4">
       {list.map((article) => (
-        <Article key={article.slug} />
+        <Article key={article.slug} {...article} />
       ))}
     </div>
   );

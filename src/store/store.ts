@@ -10,7 +10,7 @@ export const store = configureStore({
     [feedApi.reducerPath]: feedApi.reducer,
   },
   middleware: (getDefaultMiddleware) =>
-    getDefaultMiddleware().concat(feedApi.middleware),
+    getDefaultMiddleware().concat([feedApi.middleware]),
 });
 
 // Infer the `RootState` and `AppDispatch` types from the store itself

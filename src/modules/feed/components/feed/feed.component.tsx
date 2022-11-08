@@ -6,13 +6,15 @@ import { FeedToggle } from 'modules/feed/components/feed-toggle/feed-toggle.comp
 // interface IFeedProps {};
 
 export const Feed: FC = () => {
-  const { data, isLoading, error } = useGetGlobalFeedQuery('');
+  const { data, isLoading, error } = useGetGlobalFeedQuery();
+  console.log('DATA >>>', data);
 
   if (isLoading) {
     return <Container>Feed Loading...</Container>;
   }
 
   if (error) {
+    // console.log('ERROR >>>', error);
     return <Container>Error while loading feed</Container>;
   }
 

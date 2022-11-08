@@ -4,13 +4,11 @@ import { IGlobalFeedIn } from 'modules/feed/api/dto/global-feed.in';
 
 export const feedApi = createApi({
   reducerPath: 'feedApi',
-  baseQuery: axiosBaseQuery({
-    baseUrl: 'https://api.realworld.io/api',
-  }),
+  baseQuery: axiosBaseQuery(),
   endpoints: (builder) => ({
-    getGlobalFeed: builder.query<IGlobalFeedIn, string>({
+    getGlobalFeed: builder.query<IGlobalFeedIn, void>({
       query: () => ({
-        url: '/arcticles',
+        url: '/articles',
         method: 'GET',
       }),
     }),

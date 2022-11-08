@@ -1,0 +1,58 @@
+{
+  "articles": {
+    "articles": [
+      {
+        "slug": "Some",
+        "title": "Another text",
+        "description": "This is description",
+        "body": "This body",
+        "tagList": ["books", "journals", "authors"],
+        "createdAt": "09 may 2022",
+        "updatedAt": "12 july 2022",
+        "favorited": true,
+        "favoritesCount": 2,
+        "author": {
+          "username": "John Doe",
+          "bio": "Writer",
+          "image": "https://via.placeholder.com/300.png/09f/fff",
+          "following": true
+        }
+      },
+      {
+        "slug": "Some2",
+        "title": "Another text",
+        "description": "This is description",
+        "body": "This body",
+        "tagList": ["books", "journals", "authors"],
+        "createdAt": "09 may 2022",
+        "updatedAt": "12 july 2022",
+        "favorited": true,
+        "favoritesCount": 2,
+        "author": {
+          "username": "John Doe",
+          "bio": "Writer",
+          "image": "https://via.placeholder.com/300.png/09f/fff",
+          "following": true
+        }
+      },
+      {
+        "slug": "Some3",
+        "title": "Another text",
+        "description": "This is description",
+        "body": "This body",
+        "tagList": ["books", "journals", "authors"],
+        "createdAt": "09 may 2022",
+        "updatedAt": "12 july 2022",
+        "favorited": true,
+        "favoritesCount": 2,
+        "author": {
+          "username": "John Doe",
+          "bio": "Writer",
+          "image": "https://via.placeholder.com/300.png/09f/fff",
+          "following": true
+        }
+      }
+    ],
+    "articlesCount": 3
+  }
+}
