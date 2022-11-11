@@ -5,7 +5,7 @@ import axios from 'axios';
 export const axiosBaseQuery =
   (
     { baseUrl }: { baseUrl: string } = {
-      baseUrl: 'http://localhost:3001',
+      baseUrl: '',
     }
   ): BaseQueryFn<
     {
